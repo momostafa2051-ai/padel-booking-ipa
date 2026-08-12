@@ -49,7 +49,7 @@ struct BookingFormView: View {
                 Section("بياناتك") {
                     TextField("الاسم", text: $userName)
                         .textContentType(.name)
-                        .direction,.layoutDirection(.rightToLeft)
+                        .textDirection(.rightToLeft)
                     
                     TextField("رقم التليفون", text: $userPhone)
                         .keyboardType(.phonePad)
